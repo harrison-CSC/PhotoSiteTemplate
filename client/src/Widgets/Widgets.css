@@ -1,0 +1,177 @@
+
+#navbar
+{
+    background-color: rgb(240, 240, 240);
+    padding: 1.5vh;   
+}
+
+.navbarLink
+{
+    padding: 10px;
+
+
+    font-size: larger;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#navbarLogout
+{
+    border-width: 0px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.inputGrid
+{
+    background-color: rgb(240, 240, 240);
+    padding: 1vh;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 1vh;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#postImageLoginPrompt
+{
+    background-color: rgb(240, 240, 240);
+
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 1vh;
+    align-self: center;
+}
+
+.submitButton
+{
+    background-color: rgb(156, 156, 156);
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 1vh;
+
+    font-size: large;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+.photo
+{
+    width: 100%;
+    height: auto;
+}
+
+.photoBox
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.25vw;
+    padding: 0.5vw;
+}
+
+#photoBoxContainer
+{
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1vw;
+    row-gap: 3vw;
+}
+
+#singlePhoto
+{
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+#singlePhotoBox
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.5vw;
+    margin: auto;
+    padding: 1vw;
+    /* The width of this set in the ViewWidget.js file */
+}
+
+#commentBoxUL
+{
+    padding: 0;
+}
+
+.commentBox
+{
+    background-color: rgb(240, 240, 240);
+    width: 75vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+
+    border-radius: 1vw;
+    border-color: rgb(210, 210, 210);
+    border-width: 0.1vw;
+    border-style: solid;
+}
+
+.commentBoxDate
+{
+    text-align: left;
+    font-style: italic;
+}
+
+#submitCommentBox
+{
+    background-color: rgb(230, 230, 230);
+    width: 40vw;
+    border-color: rgb(200, 200, 200);
+}
+
+#commentInput
+{
+    width: 35vw;
+    padding: 1vh;
+
+    border-radius: 0.7vw;
+    border-color: rgb(150, 150, 150);
+    border-width: 0.15vw;
+    border-style: solid;
+
+    margin-bottom: 0.5vw;
+}
+
+input
+{
+    border-radius: 0.5vw;
+    border-color: rgb(200, 200, 200);
+
+    padding-left: 1vw;
+    margin-bottom: 0.1vw;
+    font-weight: bold;
+}
